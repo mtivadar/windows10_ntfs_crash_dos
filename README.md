@@ -16,3 +16,12 @@ Administrator. It can even crash the system if it is in locked state.
 Note: these are the only systems I have tested.
 
 Does not seem to reproduce on my current build: 10.0.16299 Build 16299 x64 (didnt have time to see if it's really fixed)
+
+## last email response :)
+Hey Marius,
+   Your report requires either physical access or social engineering, and as such, does not meet the bar for servicing down-level (issuing a security patch).
+   [...]
+   
+   Your attempt to responsibly disclose a potential security issue is appreciated and we hope you continue to do so.
+
+Regards,
