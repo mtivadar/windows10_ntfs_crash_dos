@@ -10,6 +10,8 @@ Administrator. It can even crash the system if it is in locked state.
 To test, write the image: `dd.exe if=tinyntfs  of=\\.\<usb-drive-letter>: bs=1M count=10`
 You can download dd from http://www.chrysocome.net/dd
 
+Generally, with autoplay enabled, bsod will follow in seconds when usb stick is inserted. If this doesn't work, crash will occur when files get read. (Try accessing file named '4')
+
 ## Affected systems
 
 1. Windows 7 Enterprise 6.1.7601 SP1, Build 7601 x64
