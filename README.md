@@ -5,7 +5,7 @@ Type of issue: denial of service. One can generate blue-screen-of-death using a 
 image. This Denial of Service type of attack, can be driven from user mode, limited user account or
 Administrator. It can even crash the system if it is in locked state.
 
-**Reported to Microsoft** on July 2017, they did not want to assign CVE for it nor even to write me when they fixed it.
+**Reported to Microsoft** on July 2017, they did not want to assign CVE for it nor even to write me when/if they will fix it.
 
 ## Affected systems
 
