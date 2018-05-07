@@ -16,17 +16,16 @@ Generally, with autoplay enabled, bsod will follow in seconds when usb stick is 
 
 | Name | Version | Release | Architecture| Compatibility | Tested by
 | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: | :--------------:
-| Windows 7 Enterprise | 6.1.7601 SP1 | 7601 | x64 | :white_check_mark: | @mtivadar
-| Windows 10 Professional | 10.0.15063 | 15063 | x64 | :white_check_mark: | @mtivadar
-| Windows 10 Professional | 10.0.16299.371 (WinBuild.160101.0800) | 1709 | x64 | :white_check_mark: | @wikijm
-| Windows 10 Enterprise Evaluation Insider Preview | 10.0.16215 | 16215 | x64 | :white_check_mark: | @mtivadar
+| Windows 7 Enterprise | 6.1.7601 SP1 | 7601 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
+| Windows 10 Professional | 10.0.15063 | 15063 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
+| Windows 10 Professional | 10.0.16299.371 (WinBuild.160101.0800) | 1709 | x64 | :white_check_mark: |  [@wikijm](https://github.com/wikijm)
+| Windows 10 Enterprise Evaluation Insider Preview | 10.0.16215 | 16215 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
 
 
-### How to get OS information:
-- Name:     Get-WmiObject -Class Win32_OperatingSystem | ForEach-Object -MemberName Caption
-- Version:  (Get-ItemProperty -Path c:\windows\system32\hal.dll).VersionInfo.FileVersion
-- Release:  (Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion" -Name ReleaseId).Release
-Id
+### How to get OS information (Powershell commands):
+- Name:     ```Get-WmiObject -Class Win32_OperatingSystem | ForEach-Object -MemberName Caption ```
+- Version:  ```(Get-ItemProperty -Path c:\windows\system32\hal.dll).VersionInfo.FileVersion```
+- Release:  ```(Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion" -Name ReleaseId).ReleaseId```
 
 
 Note: these are the only systems I have tested.
