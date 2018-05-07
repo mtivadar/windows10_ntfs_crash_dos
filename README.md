@@ -28,7 +28,7 @@ Generally, with autoplay enabled, bsod will follow in seconds when usb stick is 
 - Release:  ```(Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion" -Name ReleaseId).ReleaseId```
 
 
-Note: these are the only systems I have tested.
+Note: These are the only systems that have been tested, feel free to contribute through a pull request.
 
 ~~Does not seem to reproduce on my current build: 10.0.16299 Build 16299 x64 (didnt have time to see if it's really fixed)~~
 
