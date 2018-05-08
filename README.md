@@ -14,13 +14,24 @@ Generally, with autoplay enabled, bsod will follow in seconds when usb stick is 
 
 ## Affected systems
 
-1. Windows 7 Enterprise 6.1.7601 SP1, Build 7601 x64
-2. Windows 10 Pro 10.0.15063, Build 15063 x64
-3. Windows 10 Enterprise Evaluation Insider Preview 10.0.16215, Build 16215 x64
+| Name | Version | Release | Architecture| Compatibility | Tested by
+| :--------------: | :--------------: | :--------------: | :--------------: | :--------------: | :--------------:
+| Windows 7 Enterprise | 6.1.7601 SP1 | 7601 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
+| Windows 10 Professional | 10.0.15063 | 15063 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
+| Windows 10 Professional | 10.0.16299 | 16299 | x64 | :grey_question: | [@mtivadar](https://github.com/mtividar)
+| Windows 10 Professional | 10.0.16299.371 (WinBuild.160101.0800) | 1709 | x64 | :white_check_mark: |  [@wikijm](https://github.com/wikijm)
+| Windows 10 Enterprise Evaluation Insider Preview | 10.0.16215 | 16215 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
+|  |  |  |  | :x: | [@akindgithubuser](https://github.com/akindgithubuser)
 
-Note: these are the only systems I have tested.
 
-~~Does not seem to reproduce on my current build: 10.0.16299 Build 16299 x64 (didnt have time to see if it's really fixed)~~
+### How to get OS information (Powershell commands):
+- Name:     ```Get-WmiObject -Class Win32_OperatingSystem | ForEach-Object -MemberName Caption ```
+- Version:  ```(Get-ItemProperty -Path c:\windows\system32\hal.dll).VersionInfo.FileVersion```
+- Release:  ```(Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion" -Name ReleaseId).ReleaseId```
+
+
+Note: These are the only systems that have been tested, feel free to contribute through a pull request.
+
 
 ## last email response :)
 Hey Marius,
