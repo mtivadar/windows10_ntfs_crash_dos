@@ -12,6 +12,8 @@ You can download dd from http://www.chrysocome.net/dd
 
 Generally, with autoplay enabled, bsod will follow in seconds when usb stick is inserted. If this doesn't work, crash will occur when files get read. (Try accessing file named '4')
 
+-~~Does not seem to reproduce on my current build: 10.0.16299 Build 16299 x64 (didnt have time to see if it's really fixed)~~
+
 ## Affected systems
 
 | Name | Version | Release | Architecture| Compatibility | Tested by
