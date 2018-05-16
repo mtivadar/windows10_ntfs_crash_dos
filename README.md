@@ -19,6 +19,7 @@ Generally, with autoplay enabled, bsod will follow in seconds when usb stick is 
 | Name | Version | Release | Architecture| Compatibility | Tested by
 | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: | :--------------:
 | Windows 7 Enterprise | 6.1.7601 SP1 | 7601 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
+| Windows 7 Professional | 6.1.7601 SP1 | 7601 | x64 | :white_check_mark: | [@frankenstein91](https://github.com/frankenstein91)
 | Windows 10 Professional | 10.0.15063 | 15063 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
 | Windows 10 Professional | 10.0.16299 | 16299 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
 | Windows 10 Professional | 10.0.16299.371 (WinBuild.160101.0800) | 1709 | x64 | :white_check_mark: |  [@wikijm](https://github.com/wikijm)
