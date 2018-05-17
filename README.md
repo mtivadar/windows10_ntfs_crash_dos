@@ -56,7 +56,7 @@ Fortunately, this bug can generate a BSOD and nothing more. It cannot be weaponi
 
 Microsoft was very responsive regarding my disclosure 1 year ago, but they didn’t issue a security patch.
 
-In some cases it works by only inserting the memory stick, in other cases in works when a program tries to read files from that stick.
+In some cases it works by only inserting the memory stick, in other cases it works when a program tries to read files from that stick.
 
 This bug apparently is not fixed yet, I can reproduce the crash on a latest Windows 10 build. Anyway, bug was reported almost 1 year ago.
 
