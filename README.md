@@ -28,6 +28,7 @@ Generally, with autoplay enabled, bsod will follow in seconds when usb stick is 
 | Microsoft Windows 10 Pro | 10.0.17134.1 (WinBuild.160101.0800) | 1803 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
 | Microsoft Windows 8.1 Pro | 6.3.9600.17196 (winblue_gdr.140601-1505) | 9600 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
 | Microsoft Windows XP | SP3 | - | x86 | :x: | [@mtivadar](https://github.com/mtividar)
+| ReactOS | 0.4.8 | Build  20180405-0.4.8-release-0-gd47d448.GNU_4.7.2  | x86 | :x: | [@frankenstein91](https://github.com/frankenstein91)
 |  |  |  |  | :grey_question: | [@akindgithubuser](https://github.com/akindgithubuser)
 
 
@@ -44,7 +45,7 @@ Note: These are the only systems that have been tested, feel free to contribute 
 Hey Marius,
    Your report requires either physical access or social engineering, and as such, does not meet the bar for servicing down-level (issuing a security patch).
    [...]
-   
+
    Your attempt to responsibly disclose a potential security issue is appreciated and we hope you continue to do so.
 
 Regards,
@@ -52,13 +53,13 @@ Regards,
 
 ## LE
 Fortunately, this bug can generate a BSOD and nothing more. It cannot be weaponized. Still, in some scenarios, a blue-screen-of-death could be unacceptable.
- 
-Microsoft was very responsive regarding my disclosure 1 year ago, but they didn’t issue a security patch.
- 
-In some cases it works by only inserting the memory stick, in other cases in works when a program tries to read files from that stick. 
 
-This bug apparently is not fixed yet, I can reproduce the crash on a latest Windows 10 build. Anyway, bug was reported almost 1 year ago. 
- 
+Microsoft was very responsive regarding my disclosure 1 year ago, but they didn’t issue a security patch.
+
+In some cases it works by only inserting the memory stick, in other cases in works when a program tries to read files from that stick.
+
+This bug apparently is not fixed yet, I can reproduce the crash on a latest Windows 10 build. Anyway, bug was reported almost 1 year ago.
+
 As a security researcher, I think that every vulnerability that requires physical access and/or social engineering is important. I’ve seen and studied malware like FLAME, Stuxnet that may have been spread using physical access (FLAME and Stuxnet contained a 0-day exploit that forced the OS to run malware from a removable drive).
 We all know the stories Kevin Mitnick taught us regarding social engineering, so yes, these types of bugs are important.
 
