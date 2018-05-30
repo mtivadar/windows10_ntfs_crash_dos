@@ -28,6 +28,7 @@ Generally, with autoplay enabled, bsod will follow in seconds when usb stick is 
 | Microsoft Windows 10 Pro | 10.0.17134.1 (WinBuild.160101.0800) | 1803 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
 | Microsoft Windows 8.1 Pro | 6.3.9600.17196 (winblue_gdr.140601-1505) | 9600 | x64 | :white_check_mark: | [@mtivadar](https://github.com/mtividar)
 | Microsoft Windows XP | SP3 | - | x86 | :x: | [@mtivadar](https://github.com/mtividar)
+| Windows Server 2012 R2 | 6.3.9600.17196 (winblue_gdr.140601-1505) | - | x64 | :white_check_mark: | [@frankenstein91](https://github.com/frankenstein91)
 | ReactOS | 0.4.8 | Build  20180405-0.4.8-release-0-gd47d448.GNU_4.7.2  | x86 | :x: | [@frankenstein91](https://github.com/frankenstein91)
 |  |  |  |  | :grey_question: | [@akindgithubuser](https://github.com/akindgithubuser)
 
